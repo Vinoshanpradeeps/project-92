@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+span{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid red;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+h1{
+    color: rgb(0, 31, 255);
+}
+#div1,#div2{
+    background-color: rgb(255, 0, 0);
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+label{  
+    color: rgb(0, 31, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 29;
+    font-family: Arial;
+    border-width: 5;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-top: 10%;
+}

@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Learn math</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h4 id="player1_name" style="color: white;"></h4><span style="color: red;" id="player1_score"></span>
+        <br>
+        <h4 id="player2_name" style="color: white;"></h4><span id="player2_score" style="color: red;"></span>
+
+        <div class="container">
+            <center>
+                <h1 style="color: white;">Math quiz game</h1>
+                <h3>Question turn : </h3>
+                <h3 id="playerqus" style="color: white;"></h3>
+                <br>
+                <h3>Answer turn : </h3>
+		        <h3 id="playerans" style="color: white;"></h3>
+                <div id="output" class="col-lg-6"></div>
+                <br>
+                <h2>Type in the 1st box for division number 1. 2 for division number 2. 3 for multiplication number 1. 4 for multiplication number 2. 5 for addition number 1. 6 for addition number 2. 7 for subtration number 1. 8 for subtration number 2.</h2>
+                <h1>Division</h1>
+                <h2>Number 1</h2>
+                <input style="width: 80%;" id="dnum1" type="text" placeholder="Number 1">
+                <br>
+                <h2>Number 2</h2>
+                <input style="width: 80%;" id="dnum2" type="text" placeholder="Number 2">
+                <br>
+                <h1>Multiplication</h1>
+                <h2>Number 1</h2>
+                <input style="width: 80%;" id="mnum1" type="text" placeholder="Number 1">
+                <br>
+                <h2>Number 2</h2>
+                <input style="width: 80%;" id="mnum2" type="text" placeholder="Number 2">
+                <br>
+                <h1>Addition</h1>
+                <h2>Number 1</h2>
+                <input style="width: 80%;" id="anum1" type="text" placeholder="Number 1">
+                <br>
+                <h2>Number 2</h2>
+                <input style="width: 80%;" id="anum2" type="text" placeholder="Number 2">
+                <br>
+                <h1>Subtration</h1>
+                <h2>Number 1</h2>
+                <input style="width: 80%;" id="snum1" type="text" placeholder="Number 1">
+                <br>
+                <h2>Number 2</h2>
+                <input style="width: 80%;" id="snum2" type="text" placeholder="Number 2">
+                <br>
+                <br>
+                <br>
+                <button style="color: white; background-color: red; width: 10%; height: 5%;" onclick="send()">SEND</button>
+            </center>
+        </div>
+    </body>
+</html>
